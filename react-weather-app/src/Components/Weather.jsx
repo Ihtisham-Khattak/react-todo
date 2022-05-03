@@ -6,7 +6,7 @@ function Weather() {
 
   useEffect(() => {
     axios
-      .get("https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=a5eaed71a6e1cec106332f59967f56d0"
+      .get("https://api.openweathermap.org/data/2.5/weather?q=Peshawar&appid=a5eaed71a6e1cec106332f59967f56d0"
       )
       .then((response) => {
         setCountry(response.data);
@@ -19,7 +19,17 @@ function Weather() {
       return null
     }
 
-  return <div> {country.name}</div>;
+  return (
+  
+      <div >
+        {/* <p className="country-temp">  {country.main.temp.toFixed(0)} F </p> */}
+        
+        <h2 className="country-city-name"> {country.name} </h2> 
+      
+      
+      </div>
+      
+      );
 }
 
 export default Weather;

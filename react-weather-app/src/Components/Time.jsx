@@ -25,10 +25,10 @@ function Time() {
 
   return (
     <div>
-      <p>
-        <Moment format='LT'></Moment>
-        {greeting()}
-        {date}
+      <p className="weather-time">
+        <Moment format='LT'></Moment> <br />
+        {greeting()} <br />
+        {date} <br />
       </p>
     </div>
   );

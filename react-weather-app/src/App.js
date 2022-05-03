@@ -1,10 +1,8 @@
 import './App.css';
+
+// import Quotes from './Components/Quotes';
 import Time from './Components/Time';
 import Weather from './Components/Weather';
-// import Date from './Components/Date';
-// import Weather from './Components/Weather';
-// import Time from './Components/Time';
-// import Quotes from './Components/Quotes';
 
 function App() {
   return (
@@ -12,8 +10,8 @@ function App() {
     
     <Weather />
     <Time />
-    {/* <Date /> */}
-
+    {/* <Quotes/> */}
+   
     </div>
   );
 }

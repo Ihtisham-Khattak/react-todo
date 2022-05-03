@@ -6,9 +6,8 @@ function Date() {
     const date = today.getFullYear() + '/' + today.getMonth() + '/' + today.getDate();
 
   return (
-    <div>
-
-        {date}
+    <div className='weather-Date'>
+        {date} <br />
     </div>
   )
 }

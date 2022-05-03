@@ -1,13 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Libre+Bodoni:ital,wght@1,500;1,700&family=Poppins&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  height: 150%;
+  width: 100%;
+  background: url('https://source.unsplash.com/user/erondu/1600x900') no-repeat center center fixed;
+  background-size: coover;
+  overflow: none;
+  text-align: center;
+  margin-top: 10vh;
+  opacity: 0.9;
+
+}
+
+
+body:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.country-city-name{
+
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.country-temp{
+
+  font-size: 20px;
+  color: #fff;
+  margin-right: 60rem;
+
+}
+.weather-time{
+
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
 }
